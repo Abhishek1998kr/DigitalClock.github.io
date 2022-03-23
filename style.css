@@ -1,0 +1,21 @@
+body{
+    background: #000;
+}
+.datetime{
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgba(144, 238, 144, 0.774);
+    font-size: 40px;
+    border: 1px solid rgba(144, 238, 144, 0.774);
+    padding:0 5px;
+}
+.clock{
+font-size: 80px;
+}
+.datetime:hover{
+    background: rgba(135, 207, 235, 0.815);
+    color: white;
+}
